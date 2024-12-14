@@ -32,3 +32,6 @@ A project to utilise Scikit-Learn library to predict whether a job posting is fr
     </li>
 </ul>
 
+## Possible Improvements
+
+Use GridSearchCV to tune hyperparameters (not done here due to hardware and time limitations)
