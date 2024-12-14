@@ -2,9 +2,33 @@
 
 A project to utilise Scikit-Learn library to predict whether a job posting is fraudulent or not
 
-## Models Considered
+## Simple Models Considered
 
-K-Nearest Neighbours; Logistics Regression; SVM + PCA; Decision Tree (Coming soon...); Ensemble Learning (Logistics and SVM using Principal Components, with Decision Tree as meta classifier)
+<ul>
+    <li>
+        K-Nearest Neighbours
+    </li>
+    <li>
+        Logistics Regression
+    </li>
+    <li>
+        SVM + PCA
+    </li>
+    <li>
+        Decision Tree + PCA
+    </li>
+</ul>
 
-Other Combinations of Classifiers coming soon!
+## Ensemble Models
+<ul>
+    <li> 
+        Random Forest Classifier
+    </Li>
+    <li>
+        Ensemble Learning (Logistics and KNN, with Random Forest as final classifier)
+    </li>
+    <li>
+        Ensemble Learning (Random Forest and KNN, with Logistics as final classifier)
+    </li>
+</ul>
 
